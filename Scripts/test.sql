@@ -94,3 +94,11 @@ select *
 select empno, empname, title, manager, salary, dept 
   from employee
  where dept = (select deptno from department where deptNo = 1);
+
+
+select * from title;
+
+update title set tname='사장' where tno=1;
+update title set tname='부장' where tno=2;
+
+
